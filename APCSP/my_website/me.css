@@ -1,5 +1,5 @@
 @font-face { font-family: orator; src: url('images/orator.otf'); } 
-
+@font-face { font-family: pixel; src: url('images/pixel.ttf'); } 
 
 body
 {
@@ -197,12 +197,12 @@ body
     -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
     box-shadow: 0 0 20px 4px #FFC0B6;
     width:1030px;
-    height:400px;
+    height:500px;
     margin-left: 30px;
     color: #FFFFFF;
 }
-.home h1
+.home h2
 {
-    font-family: "Orator";
+    font-family: "pixel";
     text-align: center;
-}
+} 
