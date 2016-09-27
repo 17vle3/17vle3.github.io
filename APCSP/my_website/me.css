@@ -1,0 +1,208 @@
+@font-face { font-family: orator; src: url('images/orator.otf'); } 
+
+
+body
+{
+    font-family: "Arial";
+    font-size: 20px; 
+    background-image: url("images/bg1.jpg");
+    background-attachment:fixed;
+    
+}
+/*INSIDE NAVIGATION BARS*/
+.nav
+{
+   width:1335px;
+    height:43px;
+    background-image: url("images/cloud1.jpg");
+    background-repeat: no-repeat;
+}
+
+
+    
+.nav ul {
+    margin-top:-43px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+
+}
+.nav  li{
+    float: left;
+
+}
+.nav ul li a{
+    font-family: "Orator";
+     display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+    
+
+    
+}
+.nav li a:hover:not(.active) {
+    background-color: #FFBDBD;
+}
+
+.active {
+    background-color: #FFBDBD;}
+    
+
+    
+/*COVER PICTURE*/    
+    
+.banner img{
+
+    display: block;
+    margin: auto;
+    
+}
+    
+/*INSIDE BODY*/
+
+.container {
+  position: absolute;
+    left: 10px;
+  
+}
+
+.container table
+{
+    
+    margin-left: 10px;
+   
+    text-align: center;
+    border: 1px double #FF8A8A;
+   
+}
+.container th{
+    color: #FF8A8A;
+}
+.container tr
+{
+    border: 1px solid #FFFFFF;
+     color: #FFFFFF;
+    
+}
+.left
+{
+    float:left;
+    color:#FF8A8A;
+    margin-right: 25px;
+     border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    
+}
+.right
+{
+    
+    height:400px;
+    float:left;
+    color:#FFFFFF;
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    width:315px;
+    margin-right: 25px;
+    
+}
+.right h5
+{
+    font-family: "orator";
+    color: #FFCFCF;
+    text-align: center;
+}
+.right p
+{    
+    margin-left: 15px;
+    margin-right: 10px;
+    color:#FFCFCF;
+    font-size:12px;
+    right:40px;
+   text-indent:1em;
+   text-align: left;
+}
+.right2
+{
+    font-family: "orator";
+    float:left;
+    color:#FFCFCF;
+    border: 1px solid #ffffff;
+    
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    margin-right: 25px;
+    width:315px;
+    height:400px;
+    
+    
+}
+.right2 h5
+{
+    color: #FFCFCF;
+    text-align: left;
+    margin-left: 40px;
+}
+.right2 ul
+{
+    margin-top:-10px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.songs ul
+{
+    margin-right: 10px;
+    list-style-type: decimal;
+}
+.right3
+{
+    float:left;
+    color:#FFCFCF;
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    width:315px;
+    height:400px;
+    
+}
+.right3 h1
+{
+    margin-left: 30px;
+}
+.right3 h4
+{
+    font-family: "orator";
+    margin-left: 120px;
+}
+.george
+{
+    float:left;
+    margin-top: 100px;
+}
+.home
+{
+    float:left;
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    width:1030px;
+    height:400px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+.home h1
+{
+    font-family: "Orator";
+    text-align: center;
+}
