@@ -1,11 +1,11 @@
 @font-face { font-family: orator; src: url('images/orator.otf'); } 
 @font-face { font-family: pixel; src: url('images/pixel.ttf'); } 
-
+@font-face { font-family: amethyst; src: url('images/Amethyst.ttf'); } 
 body
 {
     font-family: "Arial";
     font-size: 20px; 
-    background-image: url("images/bg1.jpg");
+    background-image: url("images/bg.gif");
     background-attachment:fixed;
     
 }
@@ -204,5 +204,31 @@ body
 .home h2
 {
     font-family: "pixel";
+    font-size: 40px;
     text-align: center;
 } 
+.home p
+{
+    margin-left:20px;
+}
+.cite p
+{
+    opacity:.3;
+    font-size: 20px;
+    text-align: center;
+    margin-top:125px;
+}
+.audioCenter {
+    margin: auto auto;
+    width: 320px;
+    margin-top: 120px;
+    opacity: 0;
+    color:pink ;
+}
+.audioCenter div {
+    display: block;
+}
+audio {
+    width: 300px;
+    height: 32px;
+}
