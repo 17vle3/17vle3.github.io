@@ -216,19 +216,38 @@ body
     opacity:.3;
     font-size: 20px;
     text-align: center;
-    margin-top:125px;
+    margin-top: 140px;
+   
 }
-.audioCenter {
-    margin: auto auto;
-    width: 320px;
-    margin-top: 120px;
+.cite audioCenter
+{
+    
     opacity: 0;
-    color:pink ;
 }
-.audioCenter div {
-    display: block;
+audio
+{
+    opacity:0;
 }
-audio {
-    width: 300px;
-    height: 32px;
+.portfolio 
+{
+    display:block;
+    /*float:left;*/
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 20px 1px #FFC0B6;
+    -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
+    box-shadow: 0 0 20px 4px #FFC0B6;
+    width:1310px;
+    height:500px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.scratchgame
+{
+    display:block;
+    
+    text-align: center;
+    
 }
