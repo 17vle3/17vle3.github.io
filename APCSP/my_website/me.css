@@ -1,6 +1,7 @@
 @font-face { font-family: orator; src: url('images/orator.otf'); } 
-@font-face { font-family: pixel; src: url('images/pixel.ttf'); } 
+@font-face { font-family: pixel; src: url('images/Lato-Thin.ttf'); } 
 @font-face { font-family: amethyst; src: url('images/Amethyst.ttf'); } 
+@font-face { font-family: lato ; src: url('images/Lato-Thin.ttf'); } 
 body
 {
     font-family: "Arial";
@@ -200,10 +201,11 @@ body
     height:500px;
     margin-left: 30px;
     color: #FFFFFF;
+    text-align: center;
 }
 .home h2
 {
-    font-family: "pixel";
+    font-family: "lato";
     font-size: 40px;
     text-align: center;
 } 
@@ -231,7 +233,6 @@ audio
 .portfolio 
 {
     display:block;
-    /*float:left;*/
     border: 1px solid #ffffff;
     -moz-box-shadow: 0 0 20px 1px #FFC0B6;
     -webkit-box-shadow: 0 0 20px 1px#FFC0B6;
@@ -241,13 +242,4 @@ audio
     margin-left: 10px;
     color: #FFFFFF;
     margin-top: 25px;
-    text-align: center;
-}
-
-.scratchgame
-{
-    display:block;
-    
-    text-align: center;
-    
 }
